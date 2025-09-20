@@ -1,5 +1,12 @@
 # 🎥 High-Accuracy Multimodal Emotion Detection from Video
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.5%2B-green.svg)
+![XGBoost](https://img.shields.io/badge/XGBoost-2.1%2B-red.svg)
+[![GitHub stars](https://img.shields.io/github/stars/MohameddEzzatt/Multimodal-Emotion-Recognition?style=social)](https://github.com/MohameddEzzatt/Multimodal-Emotion-Recognition/stargazers)
+
 This repository contains a complete **end-to-end system for Multimodal Emotion Detection**, designed to accurately classify human emotions from video clips by analyzing both **audio** and **visual** data streams.
 
 The project implements an advanced pipeline that extracts **deep features** from facial expressions and **acoustic properties** from speech. These features are then combined using a novel **Multi-View Fusion model**. Finally, a powerful **Stacking Ensemble Classifier** is trained on the fused data to achieve **high-performance emotion recognition**.
