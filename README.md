@@ -17,7 +17,7 @@ The project implements an advanced pipeline that extracts **deep features** from
 ---
 
 ## 🔬 Project Pipeline
-
+![System Architecture](images/system_architecture.png)
 The process is divided into **four main stages**:
 
 ### **Stage 1: Data Preprocessing**
@@ -34,7 +34,7 @@ The process is divided into **four main stages**:
   * **Attention Pooling** aggregates expressive frames.
   * Final features saved as `video_features_vggface_attention.csv`.
 
-### **Stage 3: Multi-View Feature Fusion**
+### **Stage 3: Feature Fusion**
 
 * **Dimensionality Reduction**: PCA → 300 components.
 * **Scaling**: StandardScaler normalization.
@@ -118,6 +118,8 @@ The process is divided into **four main stages**:
 
 ---
 
-## 📜 License
+## 📜 License  
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details. 
